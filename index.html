@@ -37,7 +37,7 @@
 						<hr />
 						<footer>
 						<h2>Get in touch!</h2>
-						<form method="post" action="https://formspree.io/root@thiagoc.net">
+						<form method="post" action="https://formspree.io/root@thiagoc.net" id="formspree">
 							<div class="field">
 								<input type="text" name="name" id="name" placeholder="Name" />
 							</div>
@@ -67,7 +67,7 @@
 							</div -->
                             <input type="text" name="_gotcha" style="display:none" />
 							<ul class="actions">
-								<li><a href="#" class="button">Send</a></li>
+								<li><a href="javascript:;" onclick="document.getElementById('formspree').submit();" class="button">Send</a></li>
 							</ul>
 						</form>
 						</footer>
